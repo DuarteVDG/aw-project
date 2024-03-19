@@ -5,7 +5,10 @@
 - Joana Morgado (62570)
 
 ## Project Description:
-Our project for the Web Applications course in 2024 aims to develop a blueprint for a mobile app, which will be responsible for providing all the architectural decisions required to build the app, given the app prototype.
+Our project for the Web Applications course in 2024 aims to develop a blueprint for a mobile app, which will be responsible for providing all the architectural decisions required to build the app, given the app prototype. The blueprint covers the following aspects of the app:
+- Front-end: Micro-frontends + View components + FE services + FE orchestration
+- Back-end: BE services (microservices) + resource management + APIs (OpenAPI)
+- Integration: JSON objects (OpenAPI)
 
 ## Project Focus:
 The project is focused on architectural issues, including systems architecture, software architecture, and app architecture. 
@@ -17,8 +20,14 @@ The project is focused on architectural issues, including systems architecture, 
 - Filler
 
 ## Timeline:
-- **Week 1:** Divi
+- **Week 1:** Splitting the app into micro-frontends and definining the responsibility for each of the micro-frontends.
+- **Week 2:** Definining the views (presentation) and FE services for each micro-frontend.
+- **Week 3:** For each view: defining required components, with a special focus on reusability.
+              For each top component: definining required ViewModels, variables that configure rendering, variables that define context and state variables.
+              Connecting everything: micro-frontends, views, components, ViewModels and FE services.
+- **Week 4:** Definining the story space, both using top-down and bottom-up approaches.
+  
 
-  ### Note:
-  The project has a technical nature but is not code-oriented. 
+### Note:
+The project has a technical nature but is not code-oriented. 
   
