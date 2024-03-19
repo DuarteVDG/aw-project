@@ -5,7 +5,7 @@
 - Joana Morgado (62570)
 
 ## Project Description:
-Our project for the Web Applications course in 2024 aims to develop a blueprint for a mobile app, which will be responsible for providing all the architectural decisions required to build the app, given the app prototype. The blueprint covers the following aspects of the app:
+This project aims to develop a blueprint for a mobile app, which will be responsible for providing all the architectural decisions required to build the app, given the app prototype. The blueprint covers the following aspects of the app:
 - Front-end: Micro-frontends + View components + FE services + FE orchestration
 - Back-end: BE services (microservices) + resource management + APIs (OpenAPI)
 - Integration: JSON objects (OpenAPI)
