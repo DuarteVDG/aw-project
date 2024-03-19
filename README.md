@@ -1,3 +1,3 @@
-Project for Web Applications course 2024
-Duarte Gonçalves 56095
-Joana Morgado 62570
+Project for Web Applications course 2024 <br>
+Duarte Gonçalves 56095 <br>
+Joana Morgado 62570 <br>
