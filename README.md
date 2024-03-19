@@ -13,6 +13,8 @@ This project aims to develop a blueprint for a mobile app, which will be respons
 ## Project Focus:
 The project is focused on architectural issues, including systems architecture, software architecture, and app architecture. 
 
+## App Description
+
 ### Features:
 - 
 
