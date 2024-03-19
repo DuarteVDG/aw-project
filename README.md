@@ -1,4 +1,4 @@
-# Project for the Web Applications Course at FCUL, 2024
+# Project for the Web Applications Course @ FCUL, 2024
 
 ## Group Members:
 - Duarte Gonçalves (56095)
