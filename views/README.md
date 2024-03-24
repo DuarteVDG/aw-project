@@ -1,3 +1,3 @@
-## Information about the views directory
+## Information about the `views` directory
 
-This directory contains all the app views.
+The `views` directory holds the app's views, as initially provided by the Professor.
