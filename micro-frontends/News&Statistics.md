@@ -1,5 +1,10 @@
-<h1>News and Statistcs Micro-Frontend</h1>
-<br>
+# News and Statistcs Micro-Frontend
+
+## Description
+
+## Justification
+
+## Responsabilities
 
 ## Views
 <div style="text-align: center;">
