@@ -8,8 +8,8 @@
 
 ## Views
 <div style="display: flex;">
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/Images/Account@1x.png?raw=true" style="width: 200px; height: auto;">
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/Images/SavedProducts@1x.png?raw=true" style="width: 200px; height: auto;">
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/Images/RatingProduct@1x.png?raw=true" style="width: 200px; height: auto;">
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/UserProfile1.png?raw=true" style="width: 200px; height: auto;">
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/UserProfile3.png?raw=true" style="width: 200px; height: auto;">
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/UserProfile2.png?raw=true" style="width: 200px; height: auto;">
     
 </div>
