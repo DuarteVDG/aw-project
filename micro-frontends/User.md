@@ -5,8 +5,8 @@
 The `User` micro-frontend is responsible for handling all user-related aspects within the application, specifically user authentication user profile management, and account settings.
 
 ## Justification
-- **Simplicity & Single Responsibility:** Ensures simplicity by focusing on user-related functionalities, including authentication, profile management, and account settings, simplifying development and maintenance.
-- **Autonomous Teams and Independent Deployment:** This micro-frontend can be deployed separately without affecting other modules, allowing for independent updates and flexibility in the deployment process.
+- **Simplicity & Single Responsibility:** Ensures simplicity by focusing on user-related functionalities, including authentication, profile management, and account settings.
+- **Autonomous Teams and Independent Deployment:** This micro-frontend can be developed separately, allowing for independent updates and flexibility in the developing process.
 
 ## Responsabilities
 - Provide interfaces for user login, registration, and password recovery.
