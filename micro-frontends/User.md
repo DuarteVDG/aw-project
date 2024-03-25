@@ -19,9 +19,8 @@ The `User` micro-frontend is responsible for handling all user-related aspects w
 - Implement the ability for users to save products and view their saved items.
 
 ## Consequences and Implications
-- **Positive:** Enhances user security by managing authentication and authorization securely. Simplifies user experience by providing easy-to-use interfaces for login, registration, and password recovery.
-Provides personalized experience through profile management and saved products features. Improves user engagement and retention by allowing customization of account settings and easy navigation.
-- **Negative:** Potential downtime or issues with authentication could disrupt user access to the application and/or lead to security vulnerabilities within the application.Thus, may require intensive testing and maintenance efforts.
+- **Positive:** Enhances user security by managing authentication and authorization securely, whilst enhancing user experience by providing easy-to-use interfaces for login, registration, and password recovery, as well as personalized experience through profile management and saved products features.
+- **Negative:** Potential downtime or issues with authentication could disrupt user access to the application and/or lead to security vulnerabilities within the application. Thus, may require intensive testing and maintenance efforts.
 
 ## Views
 <div>
