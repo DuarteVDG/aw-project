@@ -1,13 +1,17 @@
-# Location Micro-Frontend
+# `Location` Micro-Frontend
 
 ## Description
 
+The `Location` micro-frontend is a micro-frontend dedicated to the selection of supermarket locations and the display of their geographical location through the use of Google Maps.
+
 ## Justification
+- **Simplicity and Single Responsability:** This micro-frontend is solely dedicated to enabling users to select supermarket locations, and then displaying their corresponding geographical location.
+- 
+- **Autonomous Teams and Independent Deployment:** The creation of a team exclusively dedicated to developing and maintaining this micro-frontend will enhance the app development efforts, minimizing downtime, whilst promoting app modularity.
 
 ## Responsabilities
-
-
-
+- Provides users with the ability to browse and select available supermarket locations (eventually, based on their preferences or geographic location).
+- Displays user selected supermarket geographical locations in a Google maps window.
 
 
 
