@@ -3,7 +3,8 @@
 The `micro-frontends` directory contains each of the app's micro-frontends, accompanied by their respective Architectural Design Records (ADRs).
 
 Each of the ADRs displays the following structure:
-- Micro-frontend description
+- Description
 - Justification
-- Micro-frontend responsabilities
-- Micro-frontend views
+- Responsabilities
+- Consequences and Implications
+- Views
