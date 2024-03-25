@@ -1,6 +1,8 @@
-# User Authentication Micro-Frontend
+# `User` Micro-Frontend
 
 ## Description
+
+The `User` micro-frontend is responsible for handling user related aspects, namely user authentication and displaying the user profile.
 
 ## Justification
 
