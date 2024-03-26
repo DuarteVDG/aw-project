@@ -12,23 +12,23 @@
     <td rowspan="5">
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Menu.png?raw=true" style="width: 150px; height: auto;" />
     </td>
-    <td style="vertical-align: top;">Main Menu Component</td>
-    <td style="vertical-align: top;">Add something</td>
+    <td style="vertical-align: top;">Homepage</td>
+    <td style="vertical-align: top;">props.navigateHomepage</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Search Bar Component</td>
-    <td style="vertical-align: top;">Add something</td>
+    <td style="vertical-align: top;">Saved producs</td>
+    <td style="vertical-align: top;">props.navigateSavedProducts</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Navigation Items Component</td>
-    <td style="vertical-align: top;">Add something</td>
+    <td style="vertical-align: top;">QR code scanner</td>
+    <td style="vertical-align: top;">props.navigateQrCodeScanner</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">User Profile Component</td>
-    <td style="vertical-align: top;">Add something</td>
+    <td style="vertical-align: top;">News</td>
+    <td style="vertical-align: top;">props.navigateNews</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Notifications Component</td>
-    <td style="vertical-align: top;">Add something</td>
+    <td style="vertical-align: top;">User profile</td>
+    <td style="vertical-align: top;">props.navigateUserProfile</td>
   </tr>
 </table>
