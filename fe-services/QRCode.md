@@ -11,7 +11,7 @@
     <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/QRCode.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
-        <li>Scan meat product</li>
+        <li>QR scan products</li>
       </ul>
     </td>
   </tr>
