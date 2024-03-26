@@ -23,12 +23,12 @@
   <tr>
     <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/UserProfile2.png?raw=true"
      style="width: 200px; height: auto;" /></td>
-    <td>ADD SOMETHING</td>
+    <td>Saved Products</td>
   </tr>
   <tr>
     <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/UserProfile3.png?raw=true"
      style="width: 200px; height: auto;" /></td>
-    <td>ADD SOMETHING</td>
+    <td>Pop-up message about saved product</td>
   </tr>
   <tr>
     <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Feedback1.png?raw=true"
