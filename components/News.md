@@ -12,23 +12,22 @@
     <td rowspan="5" >
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View4.png?raw=true" style="width: 250px; height: auto;" />
     </td>
-    <td style="vertical-align: top;">Main Menu Component</td>
+    <td style="vertical-align: top;">Header</td>
+    <td style="vertical-align: top;">props.navigateBack <br>props.navigateStatistics</td>
+  </tr>
+  
+  <tr>
+    <td style="vertical-align: top;">Highlighted news</td>
     <td style="vertical-align: top;">Add something</td>
   </tr>
+  
   <tr>
-    <td style="vertical-align: top;">Header Component</td>
+    <td style="vertical-align: top;">Latest news</td>
     <td style="vertical-align: top;">Add something</td>
   </tr>
+  
   <tr>
-    <td style="vertical-align: top;">News List Component</td>
-    <td style="vertical-align: top;">Add something</td>
-  </tr>
-  <tr>
-    <td style="vertical-align: top;">Highlighted news Component</td>
-    <td style="vertical-align: top;">Add something</td>
-  </tr>
-  <tr>
-    <td style="vertical-align: top;">Latest news Component</td>
+    <td style="vertical-align: top;">Footer/Menu</td>
     <td style="vertical-align: top;">Add something</td>
   </tr>
 
