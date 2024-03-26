@@ -29,5 +29,7 @@ The `User` micro-frontend is responsible for handling all user-related aspects w
 <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/UserProfile1.png?raw=true" style="width: 200px; height: auto;">
 <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/UserProfile3.png?raw=true" style="width: 200px; height: auto;">
 <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/UserProfile2.png?raw=true" style="width: 200px; height: auto;">
+<img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/Feedback1.png?raw=true" style="width: 200px; height: auto;">
+<img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/Feedback2.png?raw=true" style="width: 200px; height: auto;">
 </div>
   
