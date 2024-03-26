@@ -25,6 +25,7 @@
     <td style="vertical-align: top;">
       <ul>
         <li>Visualize account information</li>
+        <li>Upload profile picture</li>
         <li>Access account settings</li>
         <li>Logout</li>
         <li>Contact application team</li>
@@ -45,6 +46,7 @@
     <td style="vertical-align: top;">
       <ul>
         <li>View saved products</li>
+        <li>Access further details of<br> saved products</li>
       </ul>
     </td>
   </tr>
