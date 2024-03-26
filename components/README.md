@@ -1,4 +1,7 @@
-## Information about the components directory
+## Information about the `components` directory
 
-This directory contains all the information about the app components.
+The `components` directory contains, for each micro-frontend, the associated components and ViewModels.
+
+## Note
+This information corresponds to **Task 3** of the project.
 
