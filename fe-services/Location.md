@@ -29,7 +29,7 @@
     <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Location3.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
-        <li>Acess product categories of selected supermarket</li>
+        <li>Acess product categories of<br> selected supermarket</li>
       </ul>
     </td>
   </tr>
