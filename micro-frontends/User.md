@@ -17,6 +17,7 @@ The `User` micro-frontend is responsible for handling all user-related aspects w
 - Enable users to contact support or other users within the app.
 - Allow users to log out of their current session.
 - Implement the ability for users to save products and view their saved items.
+- Allow users to give their feedback regarding different aspects of the application, such as the meat products.
 
 ## Consequences and Implications
 - **Positive:** Enhances user security by managing authentication and authorization securely, whilst enhancing user experience by providing easy-to-use interfaces for login, registration, and password recovery, as well as personalized experience through profile management and saved products features.
