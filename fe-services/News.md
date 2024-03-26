@@ -11,9 +11,9 @@
     <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/News1.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
+        <li>View Highlighted News</li>
         <li>View Latest News</li>
         <li>Search News</li>
-        <li>Filter News</li>
       </ul>
     </td>
   </tr>
@@ -21,9 +21,7 @@
     <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/News2.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
-        <li>View News Details</li>
-        <li>Comment on News</li>
-        <li>Share News</li>
+        <li>View Selected News in Detail</li>
       </ul>
     </td>
   </tr>
