@@ -8,9 +8,9 @@
   </tr>
   <tr>
     <td rowspan="7">User</td>
-    <td rowspan="2"><img src="../images/UserAuthentication.png"
+    <td rowspan="2"><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/UserAuthentication.png?raw=true"
      alt="UserAuthentication.png"
-     style="margin-left: auto; margin-right: auto; width: 70%; display: block" /></td>
+     style="width: 200px; height: auto;" /></td>
     <td> ADD SOMETHING </td>
   </tr>
   <tr>
