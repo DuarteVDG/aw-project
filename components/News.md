@@ -1,3 +1,5 @@
+## `Components` associated with the `News` Micro-frontend
+
 <table>
   <tr>
     <th>Micro-frontend</th>
