@@ -19,7 +19,7 @@ The project is focused on architectural issues, including systems architecture, 
 - **Week 3:** For each view: defining required components, with a special focus on reusability.
               For each top component: definining required ViewModels, variables that configure rendering, variables that define context and state variables.
               Connecting everything: micro-frontends, views, components, ViewModels and FE services.
-- **Week 4:** Definining the story space, both using top-down and bottom-up approaches.
+- **Week 4:** Defining the story space, both using top-down and bottom-up approaches.
   
 ### Note:
 The project has a technical nature but is not code-oriented. 
