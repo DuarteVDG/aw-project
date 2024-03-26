@@ -8,27 +8,40 @@
     <th>ViewModels</th>
   </tr>
   <tr>
-    <td rowspan="5" style="vertical-align: top;">Menu</td>
-    <td rowspan="5">
-      <img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Menu.png?raw=true" style="width: 150px; height: auto;" />
+    <td rowspan="5" style="vertical-align: top;">News</td>
+    <td rowspan="5" >
+      <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View4.png?raw=true" style="width: 250px; height: auto;" />
     </td>
     <td style="vertical-align: top;">Main Menu Component</td>
     <td style="vertical-align: top;">Add something</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Search Bar Component</td>
+    <td style="vertical-align: top;">Header Component</td>
     <td style="vertical-align: top;">Add something</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Navigation Items Component</td>
+    <td style="vertical-align: top;">News List Component</td>
     <td style="vertical-align: top;">Add something</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">User Profile Component</td>
+    <td style="vertical-align: top;">Highlighted news Component</td>
     <td style="vertical-align: top;">Add something</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Notifications Component</td>
+    <td style="vertical-align: top;">Latest news Component</td>
     <td style="vertical-align: top;">Add something</td>
   </tr>
-</table>
+
+  <tr>
+    <td rowspan="5" style="vertical-align: top;">News</td>
+    <td rowspan="5">
+      <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View6.png?raw=true" style="width: 250px; height: auto;" />
+    </td>
+    <td style="vertical-align: top;">Header Component</td>
+    <td style="vertical-align: top;">Add something</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">Main Menu Component</td>
+    <td style="vertical-align: top;">Add something</td>
+  </tr>
+  
