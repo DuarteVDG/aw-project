@@ -1,6 +1,3 @@
 # Information about the `images` directory
 
-This directory contains all the images used in the `fe-services` folder, corresponding to **Task 2** of the project.
-
-## Note
-These images are the same as the images used in the `micro-frontends` folder.
+The `images` directory showcases all the app views, specifically highlighting the components corresponding to their respective micro-frontends. These images were the images used in the ADRs.
