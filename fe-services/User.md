@@ -21,22 +21,22 @@
     <td>ADD SOMETHING</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/)productDisplay3.JPG"
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/productDisplay3.JPG"
      style="width: 200px; height: auto;" /></td>
     <td>ADD SOMETHING</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/)productDisplay4.JPG"
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/productDisplay4.JPG"
      style="width: 200px; height: auto;" /></td>
     <td>ADD SOMETHING</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/)productDisplay5.JPG"
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/productDisplay5.JPG"
      style="width: 200px; height: auto;" /></td>
     <td>ADD SOMETHING</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/)/productDisplay6.JPG"
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images//productDisplay6.JPG"
      style="width: 200px; height: auto;" /></td>
     <td>ADD SOMETHINGl</td>
   </tr>
