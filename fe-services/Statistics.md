@@ -20,6 +20,7 @@
     <td style="vertical-align: top;">
       <ul>
         <li>Visualize positive statistics</li>
+        <li>Navigate to negative statistics page</li>
       </ul>
     </td>
   </tr>
@@ -28,6 +29,7 @@
     <td style="vertical-align: top;">
       <ul>
         <li>VIsualize negative statistics</li>
+        <li>Navigate to positive statistics page</li>
       </ul>
     </td>
   </tr>
