@@ -12,6 +12,7 @@
     <td style="vertical-align: top;">
       <ul>
         <li>QR scan products</li>
+        <li>Access further details <br>of scanned product</li>
       </ul>
     </td>
   </tr>
