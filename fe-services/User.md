@@ -10,7 +10,13 @@
     <td rowspan="7">User</td>
     <td rowspan="2"><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/UserAuthentication.png?raw=true"
      style="width: 150px; height: auto;" /></td>
-    <td> ADD SOMETHING </td>
+  <td rowspan="3" style="text-align: center;">
+  <ul>
+    <li>Insert Credentials</li>
+    <li>Delete Credentials</li>
+    <li>Update Credentials</li>
+  </ul>
+  </td>
   </tr>
   <tr>  
   </tr>
