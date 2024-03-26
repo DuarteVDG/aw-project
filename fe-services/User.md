@@ -16,30 +16,36 @@
     
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/productDisplay2.JPG?raw=true"
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/UserProfile1.png?raw=true"
      style="width: 200px; height: auto;" /></td>
     <td>ADD SOMETHING</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/productDisplay3.JPG"
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/UserProfile2.png?raw=true"
      style="width: 200px; height: auto;" /></td>
     <td>ADD SOMETHING</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/productDisplay4.JPG"
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/UserProfile3.png?raw=true"
      style="width: 200px; height: auto;" /></td>
     <td>ADD SOMETHING</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/productDisplay5.JPG"
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Feedback1.png?raw=true"
      style="width: 200px; height: auto;" /></td>
     <td>ADD SOMETHING</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images//productDisplay6.JPG"
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Feedback2.png?raw=true"
      style="width: 200px; height: auto;" /></td>
     <td>ADD SOMETHINGl</td>
   </tr>
+  <tr>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Feedback3.png?raw=true"
+     style="width: 200px; height: auto;" /></td>
+    <td>ADD SOMETHINGl</td>
+  </tr>
+
 
   
 </table>
