@@ -9,8 +9,6 @@ The `Menu` micro-frontend provides a navigation system for the application, allo
 - **News page:** Read news about meat products.
 - **Profile page:** Access personal information about the user's account.
 
-This micro-frontend is designed to simplify app navigation, promote reusability, offer flexibility for future adjustments, whilst ensuring efficient development and maintenance.
-
 ## Justification
 - **Simplicity and Single Responsibility:** Due to its clear focus on providing navigation, this micro-frontend promotes app simplicity.
 - **Reusability:** This micro-frontend can be replicated in any part of the app where navigation is needed, promoting consistency and reducing development effort.
