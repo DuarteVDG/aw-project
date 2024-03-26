@@ -8,3 +8,6 @@ Each of the ADRs displays the following structure:
 - Responsabilities
 - Consequences and Implications
 - Views
+
+## Note
+This information corresponds to **Task 1** of the project.
