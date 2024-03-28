@@ -13,7 +13,7 @@
       <ul>
         <li>View Highlighted News</li>
         <li>View Latest News</li>
-        <li>Search News</li>
+        <li>Explore News</li>
       </ul>
     </td>
   </tr>
