@@ -24,7 +24,7 @@
     <td style="vertical-align: top;">props.categoryTitle<br>props.categoryImage</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Menu</td>
-    <td style="vertical-align: top;"></td>
+    <td style="vertical-align: top;">Footer/Menu</td>
+    <td style="vertical-align: top;">props.navigateHomepage<br>props.navigateSavedProducts<br>props.navigateQrCodeReader<br>props.navigateNews<br>props.navigateProfile</td>
   </tr>
 </table>
