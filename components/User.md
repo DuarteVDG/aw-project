@@ -8,8 +8,8 @@
     <th>ViewModels</th>
   </tr>
   <tr>
-    <td rowspan="23" style="vertical-align: top;">User</td>
-    <td rowspan="3">
+    <td rowspan="19" style="vertical-align: top;">User</td>
+    <td rowspan="2">
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View3.png?raw=true" style="width: 150px; height: auto;" />
     </td>
     <td style="vertical-align: top;">Header<br>
@@ -19,119 +19,102 @@
   </td>
     <td style="vertical-align: top;">Login<br>
    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User2.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.email<br>props.password<br>props.status</td>
+    <td style="vertical-align: top;">props.email<br>props.password<br>props.forgotPasswordLink<br>props.status<br>props.createAccountLink</td>
   </tr>
-   </td>
-  </td>
-    <td style="vertical-align: top;">Footer/Menu<br>
-  <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User3.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">ADD</td>
+
   </tr>
     <tr>
-    <td rowspan="4">
+    <td rowspan="6">
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View1.png?raw=true" style="width: 150px; height: auto;" />
     </td>
     <td style="vertical-align: top;">Header<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User4.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.navigateBack</td>
+    <td style="vertical-align: top;">props.navigateBack<br>props.title<br>props.image</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">ADD<br>
+    <td style="vertical-align: top;">User Avatar<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User5.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">ADD</td>
+    <td style="vertical-align: top;">props.uploadAvatarImage</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">ADD<br>
+    <td style="vertical-align: top;">User Details<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User6.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">ADD</td>
+    <td style="vertical-align: top;">props.userName<br>props.userEmail</td>
+  </tr>
+    <tr>
+    <td style="vertical-align: top;">User Profile<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User6.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td style="vertical-align: top;">props.myAccountButton<br>props.settingsButton<br>prop.contactButton</td>
+  </tr>
+      <tr>
+    <td style="vertical-align: top;">Log Out<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User6.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td style="vertical-align: top;">props.logOutButton</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User7.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;"></td>
+    <td style="vertical-align: top;">props.navigateHomepage<br>props.navigateSavedProducts<br>props.navigateQrCodeScanner<br>props.navigateNews<br>props.navigateUserProfile</td>
   </tr>
     <tr>
-    <td rowspan="5">
+    <td rowspan="2">
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View12.png?raw=true" style="width: 150px; height: auto;" />
         </td>
     <td style="vertical-align: top;">Header<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User8.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">ADD</td>
+    <td style="vertical-align: top;">props.navigateBack</td>
   </tr>
-  <tr>
-    <td style="vertical-align: top;">ADD<br>
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User9.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">ADD</td>
+      <td style="vertical-align: top;">Saved Product Pop-up<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User8.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td style="vertical-align: top;">props.text<br>props.okButton</td>
   </tr>
+ 
+
   <tr>
-    <td style="vertical-align: top;">ADD<br>
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User10.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">ADD</td>
-  </tr>
-  <tr>
-    <td style="vertical-align: top;">ADD<br>
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User11.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">ADD</td>
-  </tr>
-  <tr>
-    <td style="vertical-align: top;">Footer/Menu<br>
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User11.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">ADD/td>
-  </tr>
-  <tr>
-    <td rowspan="5">
+    <td rowspan="3">
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View13.png?raw=true" style="width: 150px; height: auto;" />
         </td>
     <td style="vertical-align: top;">Header<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User11.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.navigateBack</td>
+    <td style="vertical-align: top;">props.navigateBack<br>props.title</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Selected Information<br>
+    <td style="vertical-align: top;">Saved Products<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User11.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.supermarketLocation<br>props.productCategory</td>
+    <td style="vertical-align: top;">props.title<br>props.savedProducs<br>props.selectProduct<br>props.text</td>
   </tr>
-  <tr>
-    <td style="vertical-align: top;">Highlighted Product<br>
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User11.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.selectHighlightedProduct<br>props.navigateToNegative</td>
-  </tr>
-  <tr>
-    <td style="vertical-align: top;">All Products<br>
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User11.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.scroll<br>props.selectProduct</td>
-  </tr>
+
   <tr>
     <td style="vertical-align: top;">Footer/Menu<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User11.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">props.navigateHomepage<br>props.navigateSavedProducts<br>props.navigateQrCodeScanner<br>props.navigateNews<br>props.navigateUserProfile</td>
   </tr>
-  <tr>
+       <tr>
     <td rowspan="5">
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View10.png?raw=true" style="width: 150px; height: auto;" />
         </td>
     <td style="vertical-align: top;">Header<br>
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User11.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.navigateBack</td>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Product1.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td style="vertical-align: top;">props.navigateBack<br>props.title</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">ADD<br>
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User11.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">ADD</td>
+    <td style="vertical-align: top;">Product Image<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Product2.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td style="vertical-align: top;">props.productImage</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">ADD<br>
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User11.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">ADD</td>
+    <td style="vertical-align: top;">Product Details<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Product3.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td style="vertical-align: top;">props.title<br>props.price<br>props.selectedLocation<br>props.details<br>props.expandDetailsButton</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">ADD<br>
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User11.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">ADD</td>
+    <td style="vertical-align: top;">User Feedback<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Product4.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td style="vertical-align: top;">props.title<br>props.seeFeedbackButton</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu<br>
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/User11.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">ADD</td>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Product5.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td style="vertical-align: top;">props.navigateHomepage<br>props.navigateSavedProducts<br>props.navigateQrCodeScanner<br>props.navigateNews<br>props.navigateUserProfile</td>
   </tr>
 </table>
