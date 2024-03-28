@@ -14,7 +14,7 @@
     </td>
     <td style="vertical-align: top;">Header<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics1.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.navigateBack<br>props.navigateToStatistics</td>
+    <td style="vertical-align: top;">props.title<br>props.navigateBack<br>props.navigateToStatistics</td>
   </tr>
     <tr>
     <td rowspan="3">
@@ -22,7 +22,7 @@
     </td>
     <td style="vertical-align: top;">Header<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics2.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.navigateBack</td>
+    <td style="vertical-align: top;">props.title<br>props.navigateBack</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Positive Statistics<br>
@@ -40,7 +40,7 @@
         </td>
     <td style="vertical-align: top;">Header<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics5.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.navigateBack</td>
+    <td style="vertical-align: top;">props.title<br>props.navigateBack</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Negative Statistics<br>
