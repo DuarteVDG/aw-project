@@ -13,6 +13,7 @@
       <ul>
         <li>Navigate to Homepage</li>
         <li>Navigate to Saved Products page</li>
+        <li>Navigate to QR Code Scanner</li>
         <li>Navigate to News page</li>
         <li>Navigate to Profile Page</li>
       </ul>
