@@ -8,20 +8,62 @@
     <th>ViewModels</th>
   </tr>
   <tr>
-    <td rowspan="5" style="vertical-align: top;">Location</td>
-    <td rowspan="5">
-      <img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Location1.png?raw=true" style="width: 150px; height: auto;" />
+    <td rowspan="13" style="vertical-align: top;">Location</td>
+    <td rowspan="4">
+      <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View8.png?raw=true" style="width: 150px; height: auto;" />
     </td>
     <td style="vertical-align: top;">Header</td>
-    <td style="vertical-align: top;">props.nagivateBack</td>
+    <td style="vertical-align: top;">props.text<br>props.image</td>
+  </tr>
+  </td>
+    <td style="vertical-align: top;">Supermarket List</td>
+    <td style="vertical-align: top;">props.dropDownList<br>props.selectionStatus<br>props.goSelectionButton</td>
+  </tr>
+   </td>
+    <td style="vertical-align: top;">Highlighted Products</td>
+    <td style="vertical-align: top;">props.gridLayout<br>props.text<br>props.image<br>props.selectProductButton</td>
+  </tr>
+  </td>
+    <td style="vertical-align: top;">Footer/Menu</td>
+    <td style="vertical-align: top;">props.navigateHomepage<br>props.navigateSavedProducts<br>props.navigateQrCodeScanner<br>props.navigateNews<br>props.navigateUserProfile</td>
+  </tr>
+    <tr>
+    <td rowspan="4">
+      <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View7.png?raw=true" style="width: 150px; height: auto;" />
+    </td>
+    <td style="vertical-align: top;">Header</td>
+    <td style="vertical-align: top;">props.navigateBack</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Google Maps API Window</td>
     <td style="vertical-align: top;">props.zoomIn<br>props.zoomOut<br>props.move</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Categories</td>
-    <td style="vertical-align: top;">props.categoryTitle<br>props.categoryImage</td>
+    <td style="vertical-align: top;">Product Categories</td>
+    <td style="vertical-align: top;">props.gridLayout<br>props.text<br>props.image<br>props.selectProductButton</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">Footer/Menu</td>
+    <td style="vertical-align: top;">props.navigateHomepage<br>props.navigateSavedProducts<br>props.navigateQrCodeScanner<br>props.navigateNews<br>props.navigateUserProfile</td>
+  </tr>
+    <tr>
+    <td rowspan="5">
+      <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View16.png?raw=true" style="width: 150px; height: auto;" />
+        </td>
+    <td style="vertical-align: top;">Header</td>
+    <td style="vertical-align: top;">props.navigateBack</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">Positive Statistics</td>
+    <td style="vertical-align: top;">props.scroll<br>props.navigateToNegative</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">Positive Statistics</td>
+    <td style="vertical-align: top;">props.scroll<br>props.navigateToNegative</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">Positive Statistics</td>
+    <td style="vertical-align: top;">props.scroll<br>props.navigateToNegative</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu</td>
