@@ -2,8 +2,6 @@
 QRMeat is an app with the goal of informing users about the details of the meat products they consume, such as their origin and history. Thus, the primary aim of the app is reflected in its functionality, as the majority of interactions guide users towards the Products details page, as seen bellow.
 
 ## Story 1
-
-
 ```mermaid
 
 flowchart TD
@@ -36,8 +34,6 @@ flowchart TD
 |     4       | Start → Supermarket → Categories → Products → ProductDetails → QR Code (Observe/Scan) |
 
 
-
-
 ## Story 2
 ```mermaid
 flowchart TD
@@ -50,3 +46,12 @@ flowchart TD
     Statistics -->|Negative| Statistics
 
 ```
+
+### FE Orchestration
+
+| Workflow   | Steps                                                                                 |
+|:-----------:|:-------------------------------------------------------------------------------------:|
+|     1       | Select location → Observe → Observe → Select product → ProductDetails → Products      |
+|     2       | Start → Supermarket → Categories → Products → ProductDetails → Feedback (Give feedback) → ProductDetails or Products |
+|     3       | Start → Supermarket → Categories → Products → ProductDetails → Feedback (Save Product) → Products |
+|     4       | Start → Supermarket → Categories → Products → ProductDetails → QR Code (Observe/Scan) |
