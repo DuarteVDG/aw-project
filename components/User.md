@@ -48,7 +48,13 @@
       User Avatar<br>
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/USER4.png?raw=true" style="width: 150px; height: auto;" />
     </td>
-    <td style="vertical-align: top;">props.uploadAvatarImage<br>props.avatarImage</td>
+    <td style="vertical-align: top;">props.uploadAvatarImage<br>props.uploadImageStatus
+      <ul>
+      <li>1 = uploading</li>
+      <li>2 = upload success</li>
+      <li>3 = upload error</li>
+    </ul>
+      props.avatarImage</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">
@@ -69,7 +75,12 @@
       Log Out<br>
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/USER7.png?raw=true" style="width: 150px; height: auto;" />
     </td>
-    <td style="vertical-align: top;">props.logOutButton</td>
+    <td style="vertical-align: top;">props.logOutButton<br>props.logOutButtonStatus 
+      <ul>
+      <li>1 = logging out</li>
+      <li>2 = logged out</li>
+      <li>3 = error</li>
+    </ul></td>
   </tr>
   <tr>
     <td style="vertical-align: top;">
