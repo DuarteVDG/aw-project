@@ -27,7 +27,13 @@
   <tr>
     <td style="vertical-align: top;">Positive Statistics<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics3.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.scroll<br>props.navigateToNegative</td>
+    <td style="vertical-align: top;">props.scroll<br>props.scrollStatus  
+      <ul>
+    <li>1 = scrolling</li>
+    <li>2 = idle</li>
+    <li>3 = reached top/bottom</li>
+  </ul>
+      props.navigateToNegative</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu<br>
@@ -45,7 +51,13 @@
   <tr>
     <td style="vertical-align: top;">Negative Statistics<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics6.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.scroll<br>props.navigateToPositive</td>
+    <td style="vertical-align: top;">props.scroll<br>props.scrollStatus  
+      <ul>
+    <li>1 = scrolling</li>
+    <li>2 = idle</li>
+    <li>3 = reached top/bottom</li>
+  </ul>
+      props.navigateToPositive</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu<br>
