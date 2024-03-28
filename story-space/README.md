@@ -1,6 +1,6 @@
 # Information about the `story-space` directory
 
-The `story-space` directory contains the story space of the application.
+The `story-space` directory contains the **story space** as well as the **FE orchestration** of the application.
 
 ## Note
 
