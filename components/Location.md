@@ -27,10 +27,7 @@
   </ul>props.locationSelection
 
   
- 
-</td>
-
-  </ul><br>props.goSelectionButton</td>
+  props.goSelectionButton</td>
   </tr>
    </td>
     <td style="vertical-align: top;">Highlighted Products<br>
