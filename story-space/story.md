@@ -1,9 +1,8 @@
-# `Story-Space` for QRMeat
-QRMeat is an app with the goal of informing users about the details of the meat products they consume, such as their origin and history. Thus, the primary aim of the app is reflected in its functionality, as the majority of interactions guide users towards the Products details page, as seen bellow.
+# `Story-Space` and `FE Orchestration` for QRMeat
+QRMeat is an app with the goal of informing users about the **details of the meat products** they consume, such as their origin and history. Thus, the primary aim of the app is reflected in its functionality, as the majority of interactions guide users towards the Products details page, as seen below.
 
 ## Story 1
 ```mermaid
-
 flowchart TD
     Start[Homepage] -->|Select location| Supermarket[Supermarket]
     Start -->|Select product| ProductDetails
@@ -26,10 +25,10 @@ flowchart TD
 
 ### FE Orchestration
 
-| Workflow   | Steps                                                                                 |
+| Workflow  | Steps                                                                                 |
 |:-----------:|:-------------------------------------------------------------------------------------:|
-|     1       | Select location → Observe Catagories → Observe Products → Select product → View ProductDetails  → View Feedback → Save product → Give Feedback      |
-|     2       | Select location → Access QR Code → Scan Product → Observe Product Details → View Feedback → Save product → Give Feedback |
+|     1       | Select location → Observe Categories → Observe Products → Select product → View ProductDetails  → View Feedback → Save product → Give Feedback      |
+|     2       | Select location → Access QR Code → Scan Product → View Product Details → View Feedback → Save product → Give Feedback |
 |     3       | Select product → View Feedback → Save product → Give Feedback |
 |     4       | Access Saved Products → Select product → View Feedback → Save product → Give Feedback |
 
