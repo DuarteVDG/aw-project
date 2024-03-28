@@ -27,7 +27,7 @@
     <td style="vertical-align: top;">Latest News<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/News3.png?raw=true" style="width: 150px; height: auto;" />
     </td>
-    <td style="vertical-align: top;">props.newsList<br>props.scrollList<br>props.selectNews</td>
+    <td style="vertical-align: top;">props.date<br>props.origin<br>props.newsList<br>props.scrollList<br>props.selectNews</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu<br>
