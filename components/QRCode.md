@@ -14,7 +14,7 @@
     </td>
     <td style="vertical-align: top;">Header<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/QRCode1.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.navigateBack</td>
+    <td style="vertical-align: top;">props.title<br>props.navigateBack</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">QR Scan<br>
