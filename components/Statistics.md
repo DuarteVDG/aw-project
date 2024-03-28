@@ -27,7 +27,7 @@
   <tr>
     <td style="vertical-align: top;">Positive Statistics<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics3.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.scroll<br>props.scrollStatus  
+    <td style="vertical-align: top;">props.title<br>props.scroll<br>props.scrollStatus  
       <ul>
     <li>1 = scrolling</li>
     <li>2 = idle</li>
@@ -51,7 +51,7 @@
   <tr>
     <td style="vertical-align: top;">Negative Statistics<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics6.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.scroll<br>props.scrollStatus  
+    <td style="vertical-align: top;">props.title<br>props.scroll<br>props.scrollStatus  
       <ul>
     <li>1 = scrolling</li>
     <li>2 = idle</li>
