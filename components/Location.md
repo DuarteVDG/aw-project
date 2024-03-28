@@ -6,7 +6,6 @@
     <th>Views</th>
     <th>Components</th>
     <th>ViewModels</th>
-    <th>Render Functions</th>
   </tr>
   <tr>
     <td rowspan="5" style="vertical-align: top;">Location</td>
