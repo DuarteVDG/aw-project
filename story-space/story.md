@@ -41,8 +41,7 @@ flowchart TD
     News -->|Scroll| News
     Article --> News
     News --> Statistics[Statistics]
-    Statistics -->|Positive| Statistics
-    Statistics -->|Negative| Statistics
+    Statistics -->|Navigate| Statistics
 
 ```
 
@@ -50,6 +49,6 @@ flowchart TD
 
 | Workflow   | Steps                                                                                          |
 |:-----------:|:----------------------------------------------------------------------------------------------:|
-|     1       | Access News Page → Scroll News → Select Article → Return to News Page → Access Statistics |
-|     2       | Access News Page → Access Statistics                          |
+|     1       | Access News Page → Scroll News → Select Article → Return to News Page → Access Statistics → Navigate |
+|     2       | Access News Page → Access Statistics → Navigate                         |
 
