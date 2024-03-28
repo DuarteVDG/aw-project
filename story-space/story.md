@@ -5,10 +5,10 @@ QRMeat is an app with the goal of informing users about the **details of the mea
 ```mermaid
 flowchart TD
     Start[Homepage] -->|Select location| Supermarket[Supermarket]
-    Start -->|Select product| ProductDetails
+    Start -->|Select product| ProductDetails[Product Details]
     Start -->|Access| SavedProducts[Saved Products]
     SavedProducts --> Start
-    SavedProducts -->|Select Product| ProductDetails[Product Details]
+    SavedProducts -->|Select Product| ProductDetails
     Supermarket -->|Observe| Categories[Categories]
     Categories -->|Observe| Products[Products]
     Products -->|Select product| ProductDetails
