@@ -24,7 +24,7 @@
       Login<br>
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/USERLOGIN.png?raw=true" style="width: 150px; height: auto;" />
     </td>
-    <td style="vertical-align: top;">props.email<br>props.password<br>props.loginStatus
+    <td style="vertical-align: top;">props.email<br>props.password<br>props.logInStatus
     <ul>
   <li>1 = waiting</li>
   <li>2 = requested</li>
