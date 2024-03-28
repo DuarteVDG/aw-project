@@ -27,8 +27,8 @@ flowchart TD
 
 | Workflow  | Steps                                                                                 |
 |:-----------:|:-------------------------------------------------------------------------------------:|
-|     1       | Select location → Observe Categories → Observe Products → Select product → View ProductDetails  → View Feedback → Save product → Give Feedback      |
-|     2       | Select location → Access QR Code → Scan Product → View Product Details → View Feedback → Save product → Give Feedback |
+|     1       | Select location → Observe Categories → Observe Products → Select product → View Product Details  → View Feedback → Save product → Give Feedback      |
+|     2       | Select location → Access QR Code → Scan Product → Observe Product Details → View Feedback → Save product → Give Feedback |
 |     3       | Select product → View Feedback → Save product → Give Feedback |
 |     4       | Access Saved Products → Select product → View Feedback → Save product → Give Feedback |
 
