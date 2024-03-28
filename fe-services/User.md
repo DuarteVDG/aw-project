@@ -27,8 +27,8 @@
         <li>Visualize account information</li>
         <li>Upload profile picture</li>
         <li>Access account settings</li>
-        <li>Logout</li>
         <li>Contact application team</li>
+        <li>Logout</li>
       </ul>
     </td>
   </tr>
