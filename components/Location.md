@@ -93,7 +93,7 @@ props.zoomIn<br>props.zoomOut<br>props.move</td>
   <tr>
     <td style="vertical-align: top;">All Products<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Location12.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.title<br>props.scroll
+    <td style="vertical-align: top;">props.title<br>props.scroll<br>props.scrollStatus
       <ul>
     <li>1 = scrolling</li>
     <li>2 = idle</li>
