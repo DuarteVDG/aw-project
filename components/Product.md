@@ -53,7 +53,7 @@
   <tr>
     <td style="vertical-align: top;">Product Details<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Product3.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.title<br>props.price<br>props.selectedLocation<br>props.text<br>props.expandDetailsButton</td>
+    <td style="vertical-align: top;">props.title<br>props.price<br>props.selectedLocation<br>props.details<br>props.expandDetailsButton</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">User Feedback<br>
