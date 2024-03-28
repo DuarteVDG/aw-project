@@ -26,6 +26,18 @@ flowchart TD
     QRCode -->|Scan| QRCode
 ```
 
+### FE Orchestration
+
+| Workflow   | Steps                                                                                 |
+|:-----------:|:-------------------------------------------------------------------------------------:|
+|     1       | Select location → Observe → Observe → Select product → ProductDetails → Products      |
+|     2       | Start → Supermarket → Categories → Products → ProductDetails → Feedback (Give feedback) → ProductDetails or Products |
+|     3       | Start → Supermarket → Categories → Products → ProductDetails → Feedback (Save Product) → Products |
+|     4       | Start → Supermarket → Categories → Products → ProductDetails → QR Code (Observe/Scan) |
+
+
+
+
 ## Story 2
 ```mermaid
 flowchart TD
