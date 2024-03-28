@@ -14,7 +14,7 @@
     </td>
     <td style="vertical-align: top;">Header<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Location1.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.text<br>props.image</td>
+    <td style="vertical-align: top;">props.title<br>props.image</td>
   </tr>
   </td>
     <td style="vertical-align: top;">Supermarket List<br>
@@ -37,7 +37,7 @@
     </td>
     <td style="vertical-align: top;">Header<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Location5.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.navigateBack</td>
+    <td style="vertical-align: top;">props.title<br>props.navigateBack</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Google Maps API Window<br>
@@ -60,7 +60,7 @@
         </td>
     <td style="vertical-align: top;">Header<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Location9.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.navigateBack</td>
+    <td style="vertical-align: top;">props.title<br>props.navigateBack</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Selected Information<br>
