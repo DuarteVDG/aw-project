@@ -1,4 +1,4 @@
-## `Components` associated with the `News` Micro-frontend
+## `Components` associated with the `News` Micro-frontend views
 
 <table>
   <tr>
