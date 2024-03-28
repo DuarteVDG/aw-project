@@ -12,37 +12,44 @@
     <td rowspan="1">
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View4.png?raw=true" style="width: 150px; height: auto;" />
     </td>
-    <td style="vertical-align: top;">Header</td>
-    <td style="vertical-align: top;">props.navigateToStatistics</td>
+    <td style="vertical-align: top;">Header<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics1.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td style="vertical-align: top;">props.navigateBack<br>props.navigateToStatistics</td>
   </tr>
     <tr>
     <td rowspan="3">
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View15.png?raw=true" style="width: 150px; height: auto;" />
     </td>
-    <td style="vertical-align: top;">Header</td>
+    <td style="vertical-align: top;">Header<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics2.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">props.navigateBack</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Positive Statistics</td>
+    <td style="vertical-align: top;">Positive Statistics<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics3.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">props.scroll<br>props.navigateToNegative</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Footer/Menu</td>
+    <td style="vertical-align: top;">Footer/Menu<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics4.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">props.navigateHomepage<br>props.navigateSavedProducts<br>props.navigateQrCodeScanner<br>props.navigateNews<br>props.navigateUserProfile</td>
   </tr>
     <tr>
     <td rowspan="5">
       <img src="https://github.com/DuarteVDG/aw-project/blob/main/views/View14.png?raw=true" style="width: 150px; height: auto;" />
         </td>
-    <td style="vertical-align: top;">Header</td>
+    <td style="vertical-align: top;">Header<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics5.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">props.navigateBack</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Positive Statistics</td>
-    <td style="vertical-align: top;">props.scroll<br>props.navigateToNegative</td>
+    <td style="vertical-align: top;">Negative Statistics<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics6.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td style="vertical-align: top;">props.scroll<br>props.navigateToPositive</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">Footer/Menu</td>
+    <td style="vertical-align: top;">Footer/Menu<br>
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Statistics7.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">props.navigateHomepage<br>props.navigateSavedProducts<br>props.navigateQrCodeScanner<br>props.navigateNews<br>props.navigateUserProfile</td>
   </tr>
 </table>
