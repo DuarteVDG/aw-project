@@ -1,4 +1,4 @@
-## `Components` associated with the `Menu` Micro-frontend
+## `Components` associated with the `Menu` Micro-frontend views
 
 <table>
   <tr>
