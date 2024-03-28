@@ -1,4 +1,4 @@
-## `Components` associated with the `Location` Micro-frontend
+## `Components` associated with the `Location` Micro-frontend views
 
 <table>
   <tr>
