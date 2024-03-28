@@ -1,4 +1,4 @@
-## `Components` associated with the `Product` Micro-frontend
+## `Components` associated with the `Product` Micro-frontend views
 
 <table>
   <tr>
