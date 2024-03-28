@@ -14,6 +14,7 @@ This project aims to develop a comprehensive blueprint for a mobile app, which w
 The project is focused on architectural issues, including systems architecture, software architecture, and app architecture. 
 
 ## Timeline:
+### Frontend
 - **Week 1:** Splitting the app into micro-frontends and definining the responsibility for each of the micro-frontends.
 - **Week 2:** Definining the views (presentation) and FE services for each micro-frontend.
 - **Week 3:** For each view: defining required components, with a special focus on reusability.
