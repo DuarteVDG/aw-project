@@ -30,7 +30,7 @@
   <tr>
     <td style="vertical-align: top;">All Products<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Location12.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.title<br>props.scroll 
+    <td style="vertical-align: top;">props.title<br>props.scroll<br>props.scrollStatus 
       <ul>
     <li>1 = scrolling</li>
     <li>2 = idle</li>
@@ -168,13 +168,14 @@
   <tr>
     <td style="vertical-align: top;">Google Maps API Window<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Location6.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.zoomIn<br>props.zoomOut<br>props.move<br>props.mapStatus
+    <td style="vertical-align: top;">props.mapStatus
       <ul>
     <li>1 = loading</li>
     <li>2 = ready</li>
     <li>3 = error</li>
     <li>4 = interacting</li>
-  </ul></td>
+  </ul>
+      props.zoomIn<br>props.zoomOut<br>props.move</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Product Categories<br>
