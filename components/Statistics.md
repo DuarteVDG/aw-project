@@ -28,7 +28,7 @@
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu</td>
-    <td style="vertical-align: top;">props.navigateToNegative</td>
+    <td style="vertical-align: top;">props.navigateHomepage<br>props.navigateSavedProducts<br>props.navigateQrCodeScanner<br>props.navigateNews<br>props.navigateUserProfile</td>
   </tr>
     <tr>
     <td rowspan="5">
@@ -43,6 +43,6 @@
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu</td>
-    <td style="vertical-align: top;">props.navigateToNegative</td>
+    <td style="vertical-align: top;">props.navigateHomepage<br>props.navigateSavedProducts<br>props.navigateQrCodeScanner<br>props.navigateNews<br>props.navigateUserProfile</td>
   </tr>
 </table>
