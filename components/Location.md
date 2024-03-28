@@ -70,12 +70,12 @@
   <tr>
     <td style="vertical-align: top;">Highlighted Product<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Location11.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.selectHighlightedProduct<br>props.navigateHighlights</td>
+    <td style="vertical-align: top;">props.title<br>props.selectHighlightedProduct<br>props.navigateHighlights</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">All Products<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Location12.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.scroll<br>props.selectProduct</td>
+    <td style="vertical-align: top;">props.title<br>props.scroll<br>props.selectProduct</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu<br>
