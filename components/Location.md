@@ -19,7 +19,18 @@
   </td>
     <td style="vertical-align: top;">Supermarket List<br>
    <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Location2.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.dropDownList<br>props.selectionStatus<br>props.goSelectionButton</td>
+    <td style="vertical-align: top;">props.dropDownList<br>props.selectionStatus<br>  <ul>
+    <li>1 = waiting</li>
+    <li>2 = requested</li>
+    <li>3 = accepted</li>
+    <li>4 = denied</li>
+  </ul>props.locationSelection
+
+  
+ 
+</td>
+
+  </ul><br>props.goSelectionButton</td>
   </tr>
    </td>
     <td style="vertical-align: top;">Highlighted Products<br>
@@ -42,7 +53,14 @@
   <tr>
     <td style="vertical-align: top;">Google Maps API Window<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Location6.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.zoomIn<br>props.zoomOut<br>props.move</td>
+    <td style="vertical-align: top;">props.mapStatus
+    <ul>
+      <li>1 = loading</li>
+    <li>2 = ready</li>
+    <li>3 = error</li>
+    <li>4 = interacting</li>
+    </ul>
+props.zoomIn<br>props.zoomOut<br>props.move</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Product Categories<br>
@@ -75,7 +93,13 @@
   <tr>
     <td style="vertical-align: top;">All Products<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/Location12.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.title<br>props.scroll<br>props.selectProduct</td>
+    <td style="vertical-align: top;">props.title<br>props.scroll
+      <ul>
+    <li>1 = scrolling</li>
+    <li>2 = idle</li>
+    <li>3 = reached top/bottom</li>
+  </ul>
+      props.selectProduct</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu<br>
