@@ -27,7 +27,13 @@
     <td style="vertical-align: top;">Latest News<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/News3.png?raw=true" style="width: 150px; height: auto;" />
     </td>
-    <td style="vertical-align: top;">props.date<br>props.origin<br>props.newsList<br>props.scrollList<br>props.selectNews</td>
+    <td style="vertical-align: top;">props.date<br>props.origin<br>props.newsList<br>props.scrollList
+      <ul>
+    <li>1 = scrolling</li>
+    <li>2 = idle</li>
+    <li>3 = reached top/bottom</li>
+  </ul>
+      props.selectNews</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu<br>
@@ -50,7 +56,12 @@
     <td style="vertical-align: top;">Article<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/News6.png?raw=true" style="width: 150px; height: auto;" />
     </td>
-    <td style="vertical-align: top;">props.image<br>props.title<br>props.text<br>props.scrollArticle</td>
+    <td style="vertical-align: top;">props.image<br>props.title<br>props.text<br>props.scrollArticle
+      <ul>
+    <li>1 = scrolling</li>
+    <li>2 = idle</li>
+    <li>3 = reached top/bottom</li>
+  </ul></td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu<br>
