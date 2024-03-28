@@ -1,4 +1,4 @@
-## `Components` associated with the `Statistics` Micro-frontend
+## `Components` associated with the `Statistics` Micro-frontend views
 
 <table>
   <tr>
