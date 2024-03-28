@@ -18,6 +18,10 @@ The `Statistics` micro-frontend is dedicated to displaying both positive and neg
 - **Positive:** Provides informative statistics, promoting transparency and awareness.
 - **Negative:** May present controversial statistics.
 
+## Notes
+As the app is currently designed and implemented, the only way to access the statistics micro-frontend is through a button in the news micro-frontend, however this should be altered to allow user to access statistics without having to go through the news section. This is due to the fact that users may be interested in only one of those sections alone.
+Considering this, we opted to implement both of these micro-frontends separated.
+
 ## Views
 <div style="text-align: center;">
      <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/Statistics3.png?raw=true" style="width: 200px; height: auto;">
