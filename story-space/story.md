@@ -9,10 +9,10 @@ flowchart TD
     Start -->|Select product| ProductDetails
     Start -->|Access| SavedProducts[Saved Products]
     SavedProducts --> Start
-    SavedProducts -->|Select Product| ProductDetails
+    SavedProducts -->|Select Product| ProductDetails[Product Details]
     Supermarket -->|Observe| Categories[Categories]
     Categories -->|Observe| Products[Products]
-    Products -->|Select product| ProductDetails[ProductDetails]
+    Products -->|Select product| ProductDetails
     ProductDetails -->|ExpandDetails|ProductDetails
     ProductDetails -->|View| Feedback
     Feedback -->|Save Product| Feedback
@@ -28,10 +28,10 @@ flowchart TD
 
 | Workflow   | Steps                                                                                 |
 |:-----------:|:-------------------------------------------------------------------------------------:|
-|     1       | Select location → Observe → Observe → Select product → ProductDetails → Products      |
-|     2       | Start → Supermarket → Categories → Products → ProductDetails → Feedback (Give feedback) → ProductDetails or Products |
-|     3       | Start → Supermarket → Categories → Products → ProductDetails → Feedback (Save Product) → Products |
-|     4       | Start → Supermarket → Categories → Products → ProductDetails → QR Code (Observe/Scan) |
+|     1       | Select location → Observe Catagories → Observe Products → Select product → View ProductDetails  → View Feedback → Save product → Give Feedback      |
+|     2       | Select location → Access QR Code → Scan Product → Observe Product Details → View Feedback → Save product → Give Feedback |
+|     3       | Select product → View Feedback → Save product → Give Feedback |
+|     4       | Access Saved Products → Select product → View Feedback → Save product → Give Feedback |
 
 
 ## Story 2
@@ -49,9 +49,8 @@ flowchart TD
 
 ### FE Orchestration
 
-| Workflow   | Steps                                                                                 |
-|:-----------:|:-------------------------------------------------------------------------------------:|
-|     1       | Select location → Observe → Observe → Select product → ProductDetails → Products      |
-|     2       | Start → Supermarket → Categories → Products → ProductDetails → Feedback (Give feedback) → ProductDetails or Products |
-|     3       | Start → Supermarket → Categories → Products → ProductDetails → Feedback (Save Product) → Products |
-|     4       | Start → Supermarket → Categories → Products → ProductDetails → QR Code (Observe/Scan) |
+| Workflow   | Steps                                                                                          |
+|:-----------:|:----------------------------------------------------------------------------------------------:|
+|     1       | Access News Page → Scroll News → Select Article → Return to News Page → Access Statistics |
+|     2       | Access News Page → Access Statistics                          |
+
