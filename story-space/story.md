@@ -1,4 +1,6 @@
-# App Story-Space
+# `Story-Space` for QRMeat
+QRMeat is an app with the goal of informing users about the details of the meat products they consume, such as their origin and history. Thus, the primary aim of the app is reflected in its functionality, as the majority of interactions guide users towards the Products details page, as seen bellow.
+
 ## Story 1
 
 
@@ -25,19 +27,6 @@ flowchart TD
 ```
 
 ## Story 2
-```mermaid
-flowchart TD
-    Start[Homepage] -->|Access| News[News Page]
-    News -->|Select| Article[Article]
-    News -->|Scroll| News
-    Article --> News
-    News --> Statistics[Statistics]
-    Statistics -->|Positive| Statistics
-    Statistics -->|Negative| Statistics
-
-```
-
-# Story 3
 ```mermaid
 flowchart TD
     Start[Homepage] -->|Access| News[News Page]
