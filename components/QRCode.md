@@ -29,7 +29,7 @@
   <tr>
     <td style="vertical-align: top;">Scanned Product Details<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/QRCode3.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.viewProductDetails</td>
+    <td style="vertical-align: top;">props.productDetailsButton</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Footer/Menu<br>
