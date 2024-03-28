@@ -19,7 +19,12 @@
   <tr>
     <td style="vertical-align: top;">QR Scan<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/components/images/QRCode2.png?raw=true" style="width: 150px; height: auto;" /></td>
-    <td style="vertical-align: top;">props.qrScan</td>
+    <td style="vertical-align: top;">props.qrScan<br>props.status<br>  <ul>
+    <li>1 = scanning</li>
+    <li>2 = scanned</li>
+    <li>3 = processing</li>
+    <li>4 = error</li>
+  </ul> </td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Scanned Product Details<br>
