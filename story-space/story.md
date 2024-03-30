@@ -40,7 +40,7 @@ flowchart TD
     News -->|Select| Article[Article]
     News -->|Scroll| News
     Article --> News
-    News --> Statistics[Statistics]
+    News  -->|Access| Statistics
     Statistics -->|Navigate| Statistics
 
 ```
