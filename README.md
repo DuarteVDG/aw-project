@@ -15,10 +15,10 @@ The project is focused on architectural issues, including systems architecture, 
 
 ## Timeline:
 ### Frontend
-- **Week 1:** Splitting the app into micro-frontends and definining the responsibility for each of the micro-frontends.
-- **Week 2:** Definining the views (presentation) and FE services for each micro-frontend.
+- **Week 1:** Splitting the app into micro-frontends and defining the responsibility for each of the micro-frontends.
+- **Week 2:** Defining the views (presentation) and FE services for each micro-frontend.
 - **Week 3:** For each view: defining required components, with a special focus on reusability.
-              For each top component: definining required ViewModels, variables that configure rendering, variables that define context and state variables.
+              For each top component: defining required ViewModels, variables that configure rendering, variables that define context and state variables.
               Connecting everything: micro-frontends, views, components, ViewModels and FE services.
 - **Week 4:** Defining the story space, both using top-down and bottom-up approaches.
   
