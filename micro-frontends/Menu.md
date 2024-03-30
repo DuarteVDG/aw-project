@@ -5,7 +5,8 @@
 The `Menu` micro-frontend provides a navigation system for the application, allowing users to access different sections:
 
 - **Home page:** Navigate to the homepage of the app.
-- **Saved page:** View saved meat products in the user's account.
+- **Saved Products page:** View saved meat products in the user's account.
+- **QR Code Scanner page:** Scan meat products.
 - **News page:** Read news about meat products.
 - **Profile page:** Access personal information about the user's account.
 
@@ -16,7 +17,7 @@ The `Menu` micro-frontend provides a navigation system for the application, allo
 - **Flexibility:** It can be adjusted or changed without affecting other teams or functionalities, due to its simplicity.
 
 ## Responsabilities
-- Display the navigation tabs: Home, Saved, News, and Profile.
+- Display the navigation tabs: Home, Saved Products, QR Code Scanner, News, and Profile.
 - Allow users to click on tabs to navigate to corresponding sections of the app.
 - Maintain a user-friendly and intuitive interface for navigation within the application.
 - Support easy integration into different parts of the application where navigation is required.
