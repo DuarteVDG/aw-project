@@ -22,7 +22,7 @@
     <td style="vertical-align: top;">
       <ul>
         <li>Visualize supermarket location</li>
-        <li>Explore supermarket locations</li>
+        <li>Explore supermarket location</li>
       </ul>
     </td>
   </tr>
