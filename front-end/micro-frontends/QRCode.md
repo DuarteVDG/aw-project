@@ -18,5 +18,5 @@ The `QR Code` micro-frontend provides functionality for detecting meat products 
 - **Negative:** May require integration with external databases or services for accurate product information retrieval. However, this integration can enhance the functionality and value of the application.
 
 ## Views
-<img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/QRCode.png?raw=true" style="width: 200px; height: auto;">
+<img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/QRCode.png?raw=true" style="width: 200px; height: auto;">
   
