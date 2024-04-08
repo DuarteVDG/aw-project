@@ -27,5 +27,5 @@ The `Menu` micro-frontend provides a navigation system for the application, allo
 - **Negative:** May require adjustments or updates as the app evolves, but these changes are not expected to be demanding due to the simplicity of the system.
 
 ## Views
-<img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/Menu.png?raw=true" style="width: 200px; height: auto;">
+<img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/Menu.png?raw=true" style="width: 200px; height: auto;">
   
