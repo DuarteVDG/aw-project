@@ -10,7 +10,7 @@ flowchart TD
     Start -->|No Account?| Create[Create Account]
     Forgot --> Email[Enter Email]
     Email --> ResetLink[Send Reset Link]
-    ResetLink --> Success[Success Message]
+    ResetLink --> |Sucess| Start[Login Page]
     ResetLink -->|Invalid Email| ErrorEmail[Error Message]
     Create --> Details[Enter Details]
     Details -->|Account Created| Success[Success Message]
@@ -23,7 +23,7 @@ flowchart TD
 |:-----------:|:-------------------------------------------------------------------------------------:|
 |     1       | Login Page → Enter Credentials → Validate Credentials → Home Page |
 |     2       | Login Page → Enter Credentials → Validate Credentials → Error |
-|     3      | Login Page → Password Recovery → Enter Email → Send Reset Link → Success Message |
+|     3      | Login Page → Password Recovery → Enter Email → Send Reset Link → Login Page |
 |     4      | Login Page → Password Recovery → Enter Email → Send Reset Link → Error |
 |     5       | Login Page → Create Account → Enter Details → Create Account → Account Created → Success Message → Homepage |
 
