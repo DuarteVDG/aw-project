@@ -8,7 +8,7 @@
   </tr>
   <tr>
     <td rowspan="5" style="text-align: center;">User</td>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/UserAuthentication.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/fe-services/images/UserAuthentication.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
         <li>Fill in credentials</li>
@@ -21,7 +21,7 @@
     </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/UserProfile1.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/fe-services/images/UserProfile1.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
         <li>Visualize account information</li>
@@ -33,7 +33,7 @@
     </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/UserProfile3.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/fe-services/images/UserProfile3.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
         <li>Save product</li>
@@ -42,7 +42,7 @@
     </td>
   </tr>
     <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/UserProfile2.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/fe-services/images/UserProfile2.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
         <li>View saved products</li>
