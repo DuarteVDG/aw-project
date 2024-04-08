@@ -8,7 +8,7 @@
   </tr>
   <tr>
     <td rowspan="3" style="text-align: center;">News</td>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/News1.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/fe-services/images/News1.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
         <li>View Highlighted News</li>
@@ -18,7 +18,7 @@
     </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/News2.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/fe-services/images/News2.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
         <li>View Selected News in Detail</li>
