@@ -9,7 +9,7 @@
   </tr>
   <tr>
     <td rowspan="7" style="text-align: center;">Product</td>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Product1.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/fe-services/images/Product1.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
         <li>View highlighted products</li>
@@ -21,7 +21,7 @@
     </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Product2.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/fe-services/images/Product2.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
         <li>View product details</li>
@@ -30,7 +30,7 @@
     </td>
   </tr>
     <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Product5.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/fe-services/images/Product5.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
         <li>View product details in full</li>
@@ -38,7 +38,7 @@
     </td>
   </tr>
     <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Product4.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/fe-services/images/Product4.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
         <li>View product details table</li>
@@ -46,7 +46,7 @@
     </td>
   </tr>
     <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Product6.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/fe-services/images/Product6.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
         <li>View highlighted products</li>
@@ -54,7 +54,7 @@
     </td>
   </tr
     <tr>
-    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/fe-services/images/Product7.png?raw=true" style="width: 150px; height: auto;" /></td>
+    <td><img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/fe-services/images/Product7.png?raw=true" style="width: 150px; height: auto;" /></td>
     <td style="vertical-align: top;">
       <ul>
         <li>View product categories</li>
