@@ -15,8 +15,8 @@ The `Statistics` micro-frontend is dedicated to displaying both positive and neg
 - Promote user awareness regarding meat related topics.
 
 ## Consequences and Implications
-- **Positive:** Provides informative statistics, promoting transparency and awareness.
-- **Negative:** May present controversial statistics.
+- **Positive:** Provides informative statistics, promoting transparency and awareness, and optimizes user experience
+- **Negative:** May increase app overhead and/or present controversial statistics.
 
 ## Notes
 As the app is currently designed and implemented, the only way to access the `Statistics` micro-frontend is through a button in the `News` micro-frontend. However this should be altered to allow users to access `Statistics` without having to go through the `News`, considering users may be interested in only one of these sections. Thus, we opted to implement both of these micro-frontends separated.
