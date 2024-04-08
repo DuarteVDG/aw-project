@@ -19,6 +19,6 @@ The `News` micro-frontend is responsible for displaying relevant and/or current 
 
 ## Views
 <div style="text-align: center;">
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/News1.png?raw=true" style="width: 200px; height: auto;">
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/News2.png?raw=true" style="width: 200px; height: auto;">
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/News1.png?raw=true" style="width: 200px; height: auto;">
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/News2.png?raw=true" style="width: 200px; height: auto;">
 </div>
