@@ -21,9 +21,11 @@ flowchart TD
 
 | Workflow  | Steps                                                                                 |
 |:-----------:|:-------------------------------------------------------------------------------------:|
-|     1       | Login Page → Enter Credentials → Validate Credentials → Home Page → View Profile → Edit Profile → Change Password → Logout |
-|     2       | Login Page → Forgot Password → Enter Email → Send Reset Link → Link Sent → Success Message |
-|     3       | Login Page → Create Account → Enter Details → Create Account → Account Created → Success Message |
+|     1       | Login Page → Enter Credentials → Validate Credentials → Home Page |
+|     2       | Login Page → Enter Credentials → Validate Credentials → Error |
+|     3      | Login Page → Password Recovery → Enter Email → Send Reset Link → Success Message |
+|     4      | Login Page → Password Recovery → Enter Email → Send Reset Link → Error |
+|     5       | Login Page → Create Account → Enter Details → Create Account → Account Created → Success Message → Homepage |
 
 
 ## Story 2 - Accessing Products
