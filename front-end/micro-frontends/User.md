@@ -25,11 +25,11 @@ The `User` micro-frontend is responsible for handling all user-related aspects w
 
 ## Views
 <div>
-<img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/UserAuthentication.png?raw=true" style="width: 200px; height: auto;">
-<img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/UserProfile1.png?raw=true" style="width: 200px; height: auto;">
-<img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/UserProfile3.png?raw=true" style="width: 200px; height: auto;">
-<img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/UserProfile2.png?raw=true" style="width: 200px; height: auto;">
-<img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/Feedback1.png?raw=true" style="width: 200px; height: auto;">
-<img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/Feedback2.png?raw=true" style="width: 200px; height: auto;">
+<img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/UserAuthentication.png?raw=true" style="width: 200px; height: auto;">
+<img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/UserProfile1.png?raw=true" style="width: 200px; height: auto;">
+<img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/UserProfile3.png?raw=true" style="width: 200px; height: auto;">
+<img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/UserProfile2.png?raw=true" style="width: 200px; height: auto;">
+<img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/Feedback1.png?raw=true" style="width: 200px; height: auto;">
+<img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/Feedback2.png?raw=true" style="width: 200px; height: auto;">
 </div>
   
