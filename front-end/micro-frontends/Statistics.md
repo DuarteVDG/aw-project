@@ -23,7 +23,7 @@ As the app is currently designed and implemented, the only way to access the `St
 
 ## Views
 <div style="text-align: center;">
-     <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/Statistics3.png?raw=true" style="width: 200px; height: auto;">
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/Statistics1.png?raw=true" style="width: 200px; height: auto;">
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/Statistics2.png?raw=true" style="width: 200px; height: auto;">
+     <img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/Statistics3.png?raw=true" style="width: 200px; height: auto;">
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/Statistics1.png?raw=true" style="width: 200px; height: auto;">
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/Statistics2.png?raw=true" style="width: 200px; height: auto;">
 </div>
