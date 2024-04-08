@@ -21,7 +21,7 @@
     <td style="vertical-align: top;">Highlighted News<br>
     <img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/components/images/News2.png?raw=true" style="width: 150px; height: auto;" />
     </td>
-    <td style="vertical-align: top;">props.image<br>props.readMore</td>
+    <td style="vertical-align: top;">props.image<br>props.title<br>props.readMore</td>
   </tr>
   <tr>
     <td style="vertical-align: top;">Latest News<br>
