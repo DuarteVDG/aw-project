@@ -18,7 +18,7 @@ The `Location` micro-frontend is a micro-frontend dedicated to the selection of 
 
 ## Views
 <div style="text-align: center;">
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/Location2.png?raw=true" style="width: 200px; height: auto;">
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/Location1.png?raw=true" style="width: 200px; height: auto;">
-    <img src="https://github.com/DuarteVDG/aw-project/blob/main/micro-frontends/images/Location3.png?raw=true" style="width: 200px; height: auto;">
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/Location2.png?raw=true" style="width: 200px; height: auto;">
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/Location1.png?raw=true" style="width: 200px; height: auto;">
+    <img src="https://github.com/DuarteVDG/aw-project/blob/main/front-end/micro-frontends/images/Location3.png?raw=true" style="width: 200px; height: auto;">
 </div>
