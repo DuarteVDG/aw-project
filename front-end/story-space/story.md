@@ -1,31 +1,32 @@
 # `Story-Space` and `FE Orchestration` for QRMeat
 
-## Story 1
+## Story 1 - Login
 ```mermaid
 flowchart TD
-    Start[Login] -->|Enter Credentials| Validate[Validate Credentials]
-    Validate -->|Valid| Home[Home Page]
+    Start[Login Page] -->|Enter Credentials| Validate[Validate Credentials]
+    Validate -->|Valid| Home[Homepage]
     Validate -->|Invalid| Error[Error Message]
-    Home -->|View Profile| Profile[User Profile]
-    Home -->|Logout| Start
-    Profile -->|Edit Profile| Edit[Edit Profile]
-    Profile -->|Change Password| Change[Change Password]
-    Profile -->|Forgot Password| Forgot[Forgot Password]
-    Profile -->|Create Account| Create[Create Account]
-    Edit -->|Save| Profile
-    Change -->|Save| Profile
-    Forgot -->|Enter Email| Email[Enter Email]
-    Email -->|Send Reset Link| ResetLink[Send Reset Link]
-    ResetLink -->|Link Sent| Success[Success Message]
+    Start -->|Forgot Password?| Forgot[Password Recovery]
+    Start -->|No Account?| Create[Create Account]
+    Forgot --> Email[Enter Email]
+    Email --> ResetLink[Send Reset Link]
+    ResetLink --> Success[Success Message]
     ResetLink -->|Invalid Email| ErrorEmail[Error Message]
-    Create -->|Enter Details| Details[Enter Details]
-    Details -->|Create Account| NewAccount[Create Account]
-    NewAccount -->|Account Created| Success[Success Message]
-    NewAccount -->|Cancel| Start
+    Create --> Details[Enter Details]
+    Details -->|Account Created| Success[Success Message]
+    Details -->|Cancel| Start
+    Success --> Home
 ```
+### FE Orchestration
+
+| Workflow  | Steps                                                                                 |
+|:-----------:|:-------------------------------------------------------------------------------------:|
+|     1       | Login Page → Enter Credentials → Validate Credentials → Home Page → View Profile → Edit Profile → Change Password → Logout |
+|     2       | Login Page → Forgot Password → Enter Email → Send Reset Link → Link Sent → Success Message |
+|     3       | Login Page → Create Account → Enter Details → Create Account → Account Created → Success Message |
 
 
-## Story 2
+## Story 2 - Accessing Products
 ```mermaid
 flowchart TD
     Start[Homepage] -->|Select location| Supermarket[Supermarket]
@@ -61,7 +62,7 @@ flowchart TD
 
 
 
-## Story 3
+## Story 3 - Accessing News and Statistics
 ```mermaid
 flowchart TD
     Start[Homepage] -->|Access| News[News Page]
