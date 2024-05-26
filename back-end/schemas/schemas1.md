@@ -5,7 +5,7 @@
     <th>Responses</th>
   </tr>
   <tr>
-    <td rowspan="4">AuthenticationService</td>
+    <td rowspan="4">Authentication</td>
     <td>GET /auth/status<br>
         <strong>Type:</strong> object<br>
         <strong>Properties:</strong><br>
@@ -59,7 +59,7 @@
   </tr>
 
   <tr>
-      <td rowspan="5">ProductInfoService</td>
+      <td rowspan="5">ProductInfo</td>
       <td>GET /products<br>
           <strong>Type:</strong> None
       </td>
@@ -116,36 +116,8 @@
           <strong>Content:</strong> None
       </td>
   </tr>
-
- 
   <tr>
-      <td rowspan="2">InventoryService</td>
-      <td>GET /inventory<br>
-          <strong>Type:</strong> None
-      </td>
-      <td>
-          <strong>200:</strong><br>
-          <strong>Description:</strong> Product availability in stores.<br>
-          <strong>Content:</strong> application/json<br>
-          <strong>Schema:</strong> array<br>
-          <strong>Items:</strong> { productId: integer, storeId: integer, availability: boolean }
-      </td>
-  </tr>
-  <tr>
-      <td>GET /inventory/{id}<br>
-          <strong>Type:</strong> path parameter<br>
-          <strong>Properties:</strong> { id: integer }
-      </td>
-      <td>
-          <strong>200:</strong><br>
-          <strong>Description:</strong> Availability of the specified product.<br>
-          <strong>Content:</strong> application/json<br>
-          <strong>Schema:</strong> { productId: integer, storeId: integer, availability: boolean }
-      </td>
-  </tr>
-
-  <tr>
-      <td rowspan="4">FeedbackService</td>
+      <td rowspan="4">Feedback</td>
       <td>GET /feedback<br>
           <strong>Type:</strong> None
       </td>
@@ -194,7 +166,7 @@
   </tr>
 
   <tr>
-    <td rowspan="5">UserProfileService</td>
+    <td rowspan="5">UserProfile</td>
     <td>GET /profiles<br>
         <strong>Type:</strong> None
     </td>
@@ -254,7 +226,7 @@
   </tr>
 
   <tr>
-    <td rowspan="1">QRCodeService</td>
+    <td rowspan="1">QRCode</td>
     <td>POST /qrcode/decode<br>
         <strong>Type:</strong> object<br>
         <strong>Properties:</strong> { qrcode: string }
@@ -268,7 +240,7 @@
   </tr>
 
   <tr>
-    <td rowspan="6">NewsService</td>
+    <td rowspan="6">News</td>
     <td>GET /news<br>
         <strong>Type:</strong> None
     </td>
@@ -339,7 +311,7 @@
   </tr>
 
   <tr>
-    <td rowspan="2">AnalyticsService</td>
+    <td rowspan="2">Analytics</td>
     <td>GET /analytics<br>
         <strong>Type:</strong> None
     </td>
@@ -365,7 +337,7 @@
   </tr>
 
   <tr>
-    <td rowspan="3">FavoritesService</td>
+    <td rowspan="3">Favorites</td>
     <td>GET /favorites<br>
         <strong>Type:</strong> None
     </td>
@@ -403,7 +375,7 @@
   </tr>
 
   <tr>
-    <td rowspan="5">StoreManagementService</td>
+    <td rowspan="5">StoreManagement</td>
     <td>GET /stores<br>
         <strong>Type:</strong> None
     </td>
@@ -461,23 +433,4 @@
           <strong>Content:</strong> None
       </td>
   </tr>
-  <tr>
-    <td>
-        <strong>200:</strong><br>
-        <strong>Description:</strong> Application configurations.<br>
-        <strong>Content:</strong> application/json<br>
-        <strong>Schema:</strong> { configId: integer, key: string, value: string }
-    </td>
-  </tr>
-  <tr>
-      <td>PUT /config<br>
-          <strong>Type:</strong> object<br>
-          <strong>Properties:</strong> { key: string, value: string }
-      </td>
-      <td>
-          <strong>200:</strong><br>
-          <strong>Description:</strong> Application configurations updated.<br>
-          <strong>Content:</strong> application/json
-      </td>
-  </tr>
-</table>
+ </table>
