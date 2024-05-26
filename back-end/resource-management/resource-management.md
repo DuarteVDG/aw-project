@@ -6,7 +6,7 @@
     <th>Description</th>
   </tr>
   <tr>
-    <td rowspan="4">AuthenticationService</td>
+    <td rowspan="4">Authentication</td>
     <td>GET</td>
     <td>/auth/status</td>
     <td>Retrieve user authentication status.</td>
@@ -27,7 +27,7 @@
     <td>Remove user session.</td>
   </tr>
   <tr>
-    <td rowspan="5">ProductInfoService</td>
+    <td rowspan="5">ProductInfo</td>
     <td>GET</td>
     <td>/products</td>
     <td>Retrieve a list of all products.</td>
@@ -52,7 +52,7 @@
     <td>/products/{id}</td>
     <td>Remove product information.</td>
   </tr>
-    <td rowspan="2">InventoryService</td>
+    <td rowspan="2">Inventory</td>
     <td>GET</td>
     <td>/inventory</td>
     <td>Retrieve product availability in stores.</td>
@@ -63,7 +63,7 @@
     <td>Retrieve availability of specific product by ID.</td>
   </tr>
   <tr>
-    <td rowspan="4">FeedbackService</td>
+    <td rowspan="4">Feedback</td>
     <td>GET</td>
     <td>/feedback</td>
     <td>Retrieve a list of all feedback.</td>
@@ -84,7 +84,7 @@
     <td>Remove feedback.</td>
   </tr>
   <tr>
-    <td rowspan="5">UserProfileService</td>
+    <td rowspan="5">UserProfile</td>
     <td>GET</td>
     <td>/profiles</td>
     <td>Retrieve a list of all user profiles.</td>
@@ -116,7 +116,7 @@
     <td>Decode QR code and retrieve product information.</td>
   </tr>
   <tr>
-    <td rowspan="7">NewsService</td>
+    <td rowspan="7">News</td>
     <td>GET</td>
     <td>/news</td>
     <td>Retrieve a list of all news articles.</td>
@@ -152,7 +152,7 @@
     <td>Retrieve a list of all news articles.</td>
   </tr>
   <tr>
-    <td rowspan="2">AnalyticsService</td>
+    <td rowspan="2">Analytics</td>
     <td>GET</td>
     <td>/analytics</td>
     <td>Retrieve statistical data and analysis.</td>
@@ -163,7 +163,7 @@
     <td>Retrieve specific statistical data by ID.</td>
   </tr>
   <tr>
-    <td rowspan="3">FavoritesService</td>
+    <td rowspan="3">Favorites</td>
     <td>GET</td>
     <td>/favorites</td>
     <td>Retrieve a list of user's favorite products.</td>
@@ -179,7 +179,7 @@
     <td>Remove product from favorites.</td>
   </tr>
   <tr>
-    <td rowspan="5">StoreManagementService</td>
+    <td rowspan="5">StoreManagement</td>
     <td>GET</td>
     <td>/stores</td>
     <td>Retrieve a list of all stores.</td>
@@ -205,7 +205,7 @@
     <td>Remove store.</td>
   </tr>
   <tr>
-    <td rowspan="2">AppConfigService</td>
+    <td rowspan="2">AppConfig</td>
     <td>GET</td>
     <td>/config</td>
     <td>Retrieve application configurations.</td>
