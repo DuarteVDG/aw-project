@@ -52,16 +52,6 @@
     <td>/products/{id}</td>
     <td>Remove product information.</td>
   </tr>
-    <td rowspan="2">Inventory</td>
-    <td>GET</td>
-    <td>/inventory</td>
-    <td>Retrieve product availability in stores.</td>
-  </tr>
-  <tr>
-    <td>GET</td>
-    <td>/inventory/{id}</td>
-    <td>Retrieve availability of specific product by ID.</td>
-  </tr>
   <tr>
     <td rowspan="4">Feedback</td>
     <td>GET</td>
@@ -203,16 +193,5 @@
     <td>DELETE</td>
     <td>/stores/{id}</td>
     <td>Remove store.</td>
-  </tr>
-  <tr>
-    <td rowspan="2">AppConfig</td>
-    <td>GET</td>
-    <td>/config</td>
-    <td>Retrieve application configurations.</td>
-  </tr>
-  <tr>
-    <td>PUT</td>
-    <td>/config</td>
-    <td>Update application configurations.</td>
   </tr>
 </table>
