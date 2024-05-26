@@ -52,18 +52,6 @@
     <td>/products/{id}</td>
     <td>Remove product information.</td>
   </tr>
-  <tr>
-    <td rowspan="2">StoreLocatorService</td>
-    <td>GET</td>
-    <td>/stores</td>
-    <td>Retrieve a list of all stores.</td>
-  </tr>
-  <tr>
-    <td>GET</td>
-    <td>/stores/{id}</td>
-    <td>Retrieve specific store by ID.</td>
-  </tr>
-  <tr>
     <td rowspan="2">InventoryService</td>
     <td>GET</td>
     <td>/inventory</td>
@@ -215,48 +203,6 @@
     <td>DELETE</td>
     <td>/stores/{id}</td>
     <td>Remove store.</td>
-  </tr>
-  <tr>
-    <td rowspan="4">PricingService</td>
-    <td>GET</td>
-    <td>/prices</td>
-    <td>Retrieve a list of product prices.</td>
-  </tr>
-  <tr>
-    <td>GET</td>
-    <td>/prices/{id}</td>
-    <td>Retrieve specific product price by ID.</td>
-  </tr>
-  <tr>
-    <td>POST</td>
-    <td>/prices</td>
-    <td>Add new product price.</td>
-  </tr>
-  <tr>
-    <td>PUT</td>
-    <td>/prices/{id}</td>
-    <td>Update existing product price.</td>
-  </tr>
-  <tr>
-    <td rowspan="4">ReviewService</td>
-    <td>GET</td>
-    <td>/reviews</td>
-    <td>Retrieve a list of customer reviews.</td>
-  </tr>
-  <tr>
-    <td>GET</td>
-    <td>/reviews/{id}</td>
-    <td>Retrieve specific review by ID.</td>
-  </tr>
-  <tr>
-    <td>POST</td>
-    <td>/reviews</td>
-    <td>Add new review.</td>
-  </tr>
-  <tr>
-    <td>DELETE</td>
-    <td>/reviews/{id}</td>
-    <td>Remove review.</td>
   </tr>
   <tr>
     <td rowspan="2">AppConfigService</td>
