@@ -100,13 +100,13 @@
     <td>Remove user profile.</td>
   </tr>
   <tr>
-    <td>QRCodeService</td>
+    <td>QRCode</td>
     <td>POST</td>
     <td>/qrcode/decode</td>
     <td>Decode QR code and retrieve product information.</td>
   </tr>
   <tr>
-    <td rowspan="7">News</td>
+    <td rowspan="6">News</td>
     <td>GET</td>
     <td>/news</td>
     <td>Retrieve a list of all news articles.</td>
@@ -135,11 +135,6 @@
     <td>PUT</td>
     <td>/news/{id}/archive</td>
     <td>Archive specific news article.</td>
-  </tr>
-  <tr>
-    <td>GET</td>
-    <td>/news/</td>
-    <td>Retrieve a list of all news articles.</td>
   </tr>
   <tr>
     <td rowspan="2">Analytics</td>
