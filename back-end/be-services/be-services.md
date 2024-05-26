@@ -6,7 +6,7 @@
 | UserProfile | Manages user preferences and profiles for personalized recommendations. | User profiles, preference settings. |
 | QRCode | Reads QR codes to access specific product details. | QR code data, product information. |
 | News | Delivers news and updates related to meat products. | News articles, update logs, news titles, descriptions, topics, sources. |
-| Analytics | Gathers and analyzes product and sales data for insights. | Sales data, statistical insights, environmental statistics. |
+| Analytics | Gathers and analyzes product and sales data for insights. | Sales data, statistical insights. |
 | Favorites | Allows users to save and manage their favorite products. | List of products saved by each user. |
 | StoreManagement | Manages the list of supermarkets and their details. | List of all supermarkets, their names, and locations. |
 
