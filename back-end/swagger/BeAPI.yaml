@@ -1,0 +1,681 @@
+---
+openapi: 3.0.0
+info:
+  title: qrmeat-be-api
+  description: The API for the backend of the web app QRMeat
+  version: 1.0.0
+servers:
+- url: https://virtserver.swaggerhub.com/DUARTEVDGONCALVES7/QRMeatBeAPI/1.0.0
+  description: SwaggerHub API Auto Mocking
+tags:
+- name: Authentication
+  description: Associated with user authentication and session management
+- name: ProductInfo
+  description: Associated with product information and details
+- name: Feedback
+  description: Associated with user feedback of products
+- name: QRCode
+  description: Associated with QR code scanning and reading
+- name: News
+  description: Associated with news management and information
+- name: Analytics
+  description: Associated with statistics and data
+- name: Favorites
+  description: Associated with favorited products of users
+- name: StoreManagement
+  description: Associated with stores
+paths:
+  /auth/status:
+    get:
+      tags:
+      - Authentication
+      summary: Retrieve user authentication status
+      responses:
+        "200":
+          description: User authentication status retrieved successfully
+  /auth/login:
+    post:
+      tags:
+      - Authentication
+      summary: Authenticate user and create session
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+        required: true
+      responses:
+        "201":
+          description: User authenticated and session created
+  /auth/update:
+    put:
+      tags:
+      - Authentication
+      summary: Update user credentials
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+        required: true
+      responses:
+        "200":
+          description: User credentials updated successfully
+  /auth/logout:
+    delete:
+      tags:
+      - Authentication
+      summary: Remove user session
+      responses:
+        "204":
+          description: User session removed successfully
+  /feedback:
+    get:
+      tags:
+      - Feedback
+      summary: Retrieve a list of all feedback
+      responses:
+        "200":
+          description: A list of all feedback
+    post:
+      tags:
+      - Feedback
+      summary: Submit new feedback
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Feedback'
+        required: true
+      responses:
+        "201":
+          description: Successfully submitted feedback
+  /feedback/{id}:
+    get:
+      tags:
+      - Feedback
+      summary: Retrieve specific feedback by ID
+      parameters:
+      - name: id
+        in: path
+        description: ID of the feedback to retrieve
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "200":
+          description: Retrieved specific feedback
+        "404":
+          description: Feedback not found
+    delete:
+      tags:
+      - Feedback
+      summary: Remove feedback
+      parameters:
+      - name: id
+        in: path
+        description: ID of the feedback to remove
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "204":
+          description: Successfully removed feedback
+        "404":
+          description: Feedback not found
+  /news:
+    get:
+      tags:
+      - News
+      summary: Retrieve all news
+      responses:
+        "200":
+          description: A list of news articles
+    post:
+      tags:
+      - News
+      summary: Create a news article
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/News'
+        required: true
+      responses:
+        "201":
+          description: Successfully created
+    delete:
+      tags:
+      - News
+      summary: Delete all news articles
+      responses:
+        "204":
+          description: Successfully deleted
+  /news/{id}:
+    get:
+      tags:
+      - News
+      summary: Retrieve a specific news article
+      parameters:
+      - name: id
+        in: path
+        description: ID of the news article
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "200":
+          description: Retrieved news article
+        "404":
+          description: News article not found
+    put:
+      tags:
+      - News
+      summary: Update a specific news article
+      parameters:
+      - name: id
+        in: path
+        description: ID of the news article
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/News'
+        required: true
+      responses:
+        "200":
+          description: Successfully updated
+        "404":
+          description: News article not found
+    delete:
+      tags:
+      - News
+      summary: Delete a specific news article
+      parameters:
+      - name: id
+        in: path
+        description: ID of the news article
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "204":
+          description: Successfully deleted
+        "404":
+          description: News article not found
+  /news/{id}/archive:
+    put:
+      tags:
+      - News
+      summary: Archive specific news article
+      parameters:
+      - name: id
+        in: path
+        description: ID of the news article
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "200":
+          description: Successfully archived
+        "404":
+          description: News article not found
+  /analytics:
+    get:
+      tags:
+      - Analytics
+      summary: Get all statistics
+      responses:
+        "200":
+          description: Successful response with statistics
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Statistics'
+  /analytics/{id}:
+    get:
+      tags:
+      - Analytics
+      summary: Get specific news statistics
+      parameters:
+      - name: id
+        in: path
+        description: ID of the news statistics article
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "200":
+          description: Successful response with statistics
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Statistics'
+  /products:
+    get:
+      tags:
+      - ProductInfo
+      summary: Retrieve a list of all products
+      responses:
+        "200":
+          description: A list of all products
+    post:
+      tags:
+      - ProductInfo
+      summary: Add new product information
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Product'
+        required: true
+      responses:
+        "201":
+          description: Successfully added new product
+  /products/{id}:
+    get:
+      tags:
+      - ProductInfo
+      summary: Retrieve specific product by ID
+      parameters:
+      - name: id
+        in: path
+        description: ID of the product to retrieve
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "200":
+          description: Retrieved specific product
+        "404":
+          description: Product not found
+    put:
+      tags:
+      - ProductInfo
+      summary: Update existing product information
+      parameters:
+      - name: id
+        in: path
+        description: ID of the product to update
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Product'
+        required: true
+      responses:
+        "200":
+          description: Successfully updated product information
+        "404":
+          description: Product not found
+    delete:
+      tags:
+      - ProductInfo
+      summary: Remove product information
+      parameters:
+      - name: id
+        in: path
+        description: ID of the product to remove
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "204":
+          description: Successfully removed product
+        "404":
+          description: Product not found
+  /qrcode/decode:
+    post:
+      tags:
+      - QRCode
+      summary: Decode QR code
+      parameters:
+      - name: code
+        in: query
+        required: true
+        style: form
+        explode: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: QR code decoded successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+  /favorites:
+    get:
+      tags:
+      - Favorites
+      summary: Retrieve a list of user's favorite products
+      responses:
+        "200":
+          description: A list of user's favorite products
+    post:
+      tags:
+      - Favorites
+      summary: Add product to favorites
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Product'
+        required: true
+      responses:
+        "201":
+          description: Successfully added to favorites
+  /favorites/{id}:
+    delete:
+      tags:
+      - Favorites
+      summary: Remove product from favorites
+      parameters:
+      - name: id
+        in: path
+        description: ID of the product to remove from favorites
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "204":
+          description: Successfully removed from favorites
+  /stores:
+    get:
+      tags:
+      - StoreManagement
+      summary: Retrieve a list of all stores
+      responses:
+        "200":
+          description: A list of all stores
+    post:
+      tags:
+      - StoreManagement
+      summary: Add new store
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Store'
+        required: true
+      responses:
+        "201":
+          description: Successfully added new store
+  /stores/{id}:
+    get:
+      tags:
+      - StoreManagement
+      summary: Retrieve specific store by ID
+      parameters:
+      - name: id
+        in: path
+        description: ID of the store to retrieve
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "200":
+          description: Retrieved specific store
+        "404":
+          description: Store not found
+    put:
+      tags:
+      - StoreManagement
+      summary: Update existing store
+      parameters:
+      - name: id
+        in: path
+        description: ID of the store to update
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Store'
+        required: true
+      responses:
+        "200":
+          description: Successfully updated store
+        "404":
+          description: Store not found
+    delete:
+      tags:
+      - StoreManagement
+      summary: Remove store
+      parameters:
+      - name: id
+        in: path
+        description: ID of the store to remove
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "204":
+          description: Successfully removed store
+        "404":
+          description: Store not found
+  /profiles:
+    get:
+      tags:
+      - UserProfile
+      summary: Retrieve a list of all user profiles
+      responses:
+        "200":
+          description: A list of all user profiles
+    post:
+      tags:
+      - UserProfile
+      summary: Create new user profile
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+        required: true
+      responses:
+        "201":
+          description: Successfully created new user profile
+  /profiles/{id}:
+    get:
+      tags:
+      - UserProfile
+      summary: Retrieve specific user profile by ID
+      parameters:
+      - name: id
+        in: path
+        description: ID of the user profile to retrieve
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "200":
+          description: Retrieved specific user profile
+        "404":
+          description: User profile not found
+    put:
+      tags:
+      - UserProfile
+      summary: Update existing user profile
+      parameters:
+      - name: id
+        in: path
+        description: ID of the user profile to update
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+        required: true
+      responses:
+        "200":
+          description: Successfully updated user profile
+        "404":
+          description: User profile not found
+    delete:
+      tags:
+      - UserProfile
+      summary: Remove user profile
+      parameters:
+      - name: id
+        in: path
+        description: ID of the user profile to remove
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "204":
+          description: Successfully removed user profile
+        "404":
+          description: User profile not found
+components:
+  schemas:
+    User:
+      required:
+      - email
+      - id
+      - name
+      - savedProducts
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        email:
+          type: string
+        savedProducts:
+          type: array
+          items:
+            $ref: '#/components/schemas/Product'
+    Product:
+      required:
+      - description
+      - details
+      - id
+      - image
+      - name
+      - price
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        description:
+          type: string
+        image:
+          type: string
+        price:
+          type: integer
+        details:
+          type: object
+        store:
+          $ref: '#/components/schemas/Store'
+    Store:
+      required:
+      - id
+      - location
+      - name
+      - products
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        location:
+          type: string
+        products:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductList'
+    News:
+      required:
+      - content
+      - id
+      - title
+      type: object
+      properties:
+        id:
+          type: integer
+        title:
+          type: string
+        image:
+          type: string
+        content:
+          type: string
+    Feedback:
+      required:
+      - comment
+      - productId
+      - rating
+      - userId
+      type: object
+      properties:
+        productId:
+          type: string
+        userId:
+          type: string
+        rating:
+          type: integer
+        comment:
+          type: string
+    Statistics:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            type: object
+    ProductList:
+      type: object
+      properties:
+        prod_list:
+          type: array
+          items:
+            $ref: '#/components/schemas/Product'
